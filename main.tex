@@ -161,15 +161,29 @@
 	\begin{center}
 		{\huge \bf Synopsis}
 	\end{center} 
-	
+\section{Abstract}
+Cricsights is an advanced analytics platform designed to empower fantasy sports enthusiasts by providing real-time,
+ pre-match, and post-match insights. Leveraging cutting-edge technologies such as machine learning and 
+ data visualization, Cricsights delivers actionable insights through interactive and user-friendly interfaces.
+  The platform offers comprehensive analytics, including player-specific, venue-specific, and matchup statistics, 
+  enabling informed decision-making for fantasy cricket players. With features like real-time updates during matches 
+  and meaningful visualizations, Cricsights bridges the gap between raw data and strategic decisions.
+   The subscription-based model ensures accessibility for all users while catering to premium needs with live match analytics. 
+   By transforming complex data into intuitive insights, Cricsights sets a new standard for fantasy sports engagement and decision-making.
+
+    
 \section{Introduction}
 
-Briefly describe Cricsights as a platform for empowering fantasy sports players through data-driven decision-making.
-Highlight its key objectives, such as enhancing user engagement in fantasy sports via real-time insights and comprehensive analytics.
+Crisights is a new platform designed to empower fantasy cricketers with data-driven tools to make smarter decisions.
+ It offers comprehensive analytics, including real-time, pre- and post-match insights, with comprehensive statistics
+  and an abundance of stunning graphics highlighting key elements such as players and play, location specific details,
+   and on individual player performance, to enhance the CriSights gaming experience The platform provides tailored actionable 
+   insights for its interactions It also builds user engagement through intuitive images, ensuring that users can quickly and 
+   confidently make informed choices.
  \cite{greenwade93}.
-\section{Problem Statement}
-State the challenges faced by fantasy sports players, such as lack of real-time analytics and actionable insights.
-Discuss the gap Cricsights aims to fill in providing tailored, interactive data visualizations for decision-making.
+% \section{Problem Statement}
+% State the challenges faced by fantasy sports players, such as lack of real-time analytics and actionable insights.
+% Discuss the gap Cricsights aims to fill in providing tailored, interactive data visualizations for decision-making.
 
 
 \section{Objectives}
@@ -218,80 +232,158 @@ Objectives will come here.
         \item Minimal focus on venue-specific or player matchup statistics.
     \end{itemize}
 \end{itemize}
+\subsection{Architecture of Cricsights}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{cricsight_architecuture.jpg}
+    \caption{Cricsights System Architecture}
+    \label{fig:architecture}
+\end{figure}
 
-Agricultural applications extensively use various conventional image processing methods and Machine learning methods.
+% \section{Methodology}
 
-\subsection{Deep Learning Methods}
+% \subsection{Technology Stack}
+% \begin{itemize}
+%     \item \textbf{Frontend}:
+%     \begin{itemize}
+%         \item Next.js
+%         \item React.js
+%         \item Tailwind CSS
+%     \end{itemize}
+%     \item \textbf{Backend}:
+%     \begin{itemize}
+%         \item Node.js
+%         \item Express.js
+%     \end{itemize}
+%     \item \textbf{Database}:
+%     \begin{itemize}
+%         \item MongoDB
+%     \end{itemize}
+%     \item \textbf{Analytics and Reporting}:
+%     \begin{itemize}
+%         \item Power BI
+%     \end{itemize}
+%     \item \textbf{Authentication and Authorization}:
+%     \begin{itemize}
+%         \item Firebase
+%         \item OAuth
+%     \end{itemize}
+% \end{itemize}
 
-Deep learning techniques outperform the conventional methods and show great potential in addressing plant phenotyping tasks. 
+% \subsection{Features to be Developed}
+% \begin{itemize}
+%     \item Real-time insights for live matches.
+%     \item Pre-match and post-match analytics.
+%     \item Player-specific and venue-specific statistics.
+% \end{itemize}
 
+% \subsection{Implementation Plan}
+% The development and testing phases will be carried out step-by-step as follows:
+% \begin{enumerate}
+%     \item \textbf{Requirement Gathering}:
+%     \begin{itemize}
+%         \item Identify user needs and define the problem statement.
+%         \item Analyze existing solutions and refine the scope.
+%     \end{itemize}
+%     \item \textbf{System Design}:
+%     \begin{itemize}
+%         \item Design the architecture for frontend, backend, and database.
+%         \item Create mockups and prototypes for user interfaces.
+%     \end{itemize}
+%     \item \textbf{Development}:
+%     \begin{itemize}
+%         \item Develop the frontend using Next.js and Tailwind CSS.
+%         \item Implement backend APIs using Node.js and Express.js.
+%         \item Integrate MongoDB for data storage and retrieval.
+%     \end{itemize}
+%     \item \textbf{Integration and Testing}:
+%     \begin{itemize}
+%         \item Perform module-wise integration.
+%         \item Conduct unit testing for individual modules and system testing for overall performance.
+%     \end{itemize}
+%     \item \textbf{Deployment and Maintenance}:
+%     \begin{itemize}
+%         \item Deploy the solution to a cloud platform for scalability and accessibility.
+%         \item Monitor and maintain the platform for reliability and user satisfaction.
+%     \end{itemize}
+% \end{enumerate}
 \section{Methodology}
 
-\subsection{Technology Stack}
+\subsection{Data Collection}
 \begin{itemize}
-    \item \textbf{Frontend}:
+    \item \textbf{Sources:} Data is gathered from \textit{external APIs} and \textit{web scraping} techniques to ensure comprehensive coverage of player statistics, match details, and venue specifics.
+    \item \textbf{Tools:} Python libraries like \texttt{requests} and \texttt{BeautifulSoup} are employed for scraping, while APIs are accessed through secure endpoints.
+\end{itemize}
+
+\subsection{Preprocessing}
+\begin{itemize}
+    \item The collected data undergoes cleaning and transformation to ensure consistency and usability.
+    \item \textbf{Steps:}
     \begin{itemize}
-        \item Next.js
-        \item React.js
-        \item Tailwind CSS
+        \item Handling missing or inconsistent data.
+        \item Formatting data into structured formats suitable for database storage.
     \end{itemize}
-    \item \textbf{Backend}:
+    \item \textbf{Tools:} \texttt{Pandas} and \texttt{NumPy} in Python are utilized for data wrangling.
+\end{itemize}
+
+\subsection{Database Management}
+\begin{itemize}
+    \item \textbf{Database Used:} MongoDB is used to store the preprocessed data in a NoSQL format for scalability and quick querying.
+    \item \textbf{Storage Structure:}
     \begin{itemize}
-        \item Node.js
-        \item Express.js
-    \end{itemize}
-    \item \textbf{Database}:
-    \begin{itemize}
-        \item MongoDB
-    \end{itemize}
-    \item \textbf{Analytics and Reporting}:
-    \begin{itemize}
-        \item Power BI
-    \end{itemize}
-    \item \textbf{Authentication and Authorization}:
-    \begin{itemize}
-        \item Firebase
-        \item OAuth
+        \item Player-specific data.
+        \item Match-specific analytics.
+        \item Historical data for venue performance.
     \end{itemize}
 \end{itemize}
 
-\subsection{Features to be Developed}
+\subsection{Analytics and Reporting}
 \begin{itemize}
-    \item Real-time insights for live matches.
-    \item Pre-match and post-match analytics.
-    \item Player-specific and venue-specific statistics.
+    \item \textbf{Dashboard Integration:} Power BI is employed for generating interactive dashboards, providing real-time insights and historical analytics for users.
+    \item \textbf{Models and Reports:}
+    \begin{itemize}
+        \item Predictive analytics models are applied to deliver pre-match and post-match insights.
+        \item Statistical reports for players and venues are generated.
+    \end{itemize}
 \end{itemize}
 
-\subsection{Implementation Plan}
-The development and testing phases will be carried out step-by-step as follows:
-\begin{enumerate}
-    \item \textbf{Requirement Gathering}:
+\subsection{Frontend Development}
+\begin{itemize}
+    \item \textbf{Framework:} Next.js and React.js are utilized to build a dynamic and responsive user interface (UI).
+    \item \textbf{Styling:} Tailwind CSS is used to design an intuitive and user-friendly frontend for presenting analytics and dashboards.
+    \item \textbf{Hosting:} Vercel is chosen for seamless hosting and deployment.
+\end{itemize}
+
+\subsection{Backend Development}
+\begin{itemize}
+    \item \textbf{Framework:} Node.js and Express.js are used for developing robust backend APIs.
+    \item \textbf{API Functions:}
     \begin{itemize}
-        \item Identify user needs and define the problem statement.
-        \item Analyze existing solutions and refine the scope.
+        \item Fetching real-time data for live match analysis.
+        \item Serving pre-processed data for user dashboards.
     \end{itemize}
-    \item \textbf{System Design}:
+\end{itemize}
+
+\subsection{Authentication}
+\begin{itemize}
+    \item \textbf{Methods:} Firebase and OAuth are implemented for secure and reliable user authentication.
+    \item \textbf{Features:}
     \begin{itemize}
-        \item Design the architecture for frontend, backend, and database.
-        \item Create mockups and prototypes for user interfaces.
+        \item User login and session management.
+        \item Role-based access control for premium features.
     \end{itemize}
-    \item \textbf{Development}:
+\end{itemize}
+
+\subsection{User Interaction}
+\begin{itemize}
+    \item Users access the platform via a responsive web application, interacting with features such as:
     \begin{itemize}
-        \item Develop the frontend using Next.js and Tailwind CSS.
-        \item Implement backend APIs using Node.js and Express.js.
-        \item Integrate MongoDB for data storage and retrieval.
+        \item Real-time insights during live matches.
+        \item Pre-match predictions and post-match analysis.
+        \item Player and venue-specific statistics.
     \end{itemize}
-    \item \textbf{Integration and Testing}:
-    \begin{itemize}
-        \item Perform module-wise integration.
-        \item Conduct unit testing for individual modules and system testing for overall performance.
-    \end{itemize}
-    \item \textbf{Deployment and Maintenance}:
-    \begin{itemize}
-        \item Deploy the solution to a cloud platform for scalability and accessibility.
-        \item Monitor and maintain the platform for reliability and user satisfaction.
-    \end{itemize}
-\end{enumerate}
+\end{itemize}
+
 
 
 \section{Project Plan and Timeline}
@@ -345,7 +437,13 @@ The revenue model for the platform includes free and premium services to cater t
 	
 \bibliographystyle{IEEEtran}
 \bibliography{sample}
-	
+Cricket analytics has been extensively explored in literature. For example, an analysis of the Indian Premier League (IPL) was carried out in \cite{ipl_analysis_prediction}. 
+Similarly, machine learning methods have been applied for winning predictions in T20 cricket \cite{t20_prediction}.
+Furthermore, player performance analysis using machine learning is discussed in \cite{player_performance_analysis}, 
+and IPL data visualization techniques using Microsoft Power BI are presented in \cite{ipl_visualization}.
+
+
+
 
 \vfill % Push the signing authority section to the bottom of the page
 

@@ -25,4 +25,26 @@
 G.~D. Greenwade, ``The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN}),''
   \emph{TUGBoat}, vol.~14, no.~3, pp. 342--351, 1993.
 
+\bibitem{ipl_analysis_prediction}
+\BIBentryALTinterwordspacing
+IEEE, ``Analysis and prediction for the indian premier league,'' \emph{IEEE
+  Explore}, p. N/A, 2020. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9153972}
+\BIBentrySTDinterwordspacing
+
+\bibitem{t20_prediction}
+\BIBentryALTinterwordspacing
+------, ``Analysis and winning prediction in t20 cricket using machine
+  learning,'' \emph{IEEE Explore}, p. N/A, 2022. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9807929}
+\BIBentrySTDinterwordspacing
+
+\bibitem{player_performance_analysis}
+\BIBentryALTinterwordspacing
+I.~J. of~Innovative Engineering~Technologies and A.~(iieta.org), ``Player
+  performance predictive analysis in cricket using machine learning,''
+  \emph{RIA}, p. N/A, 2021. [Online]. Available:
+  \url{https://iieta.org/journals/ria/paper/10.18280/ria.380208}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
