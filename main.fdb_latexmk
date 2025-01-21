@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1737451223.94061 "main.aux" "main.bbl" "main" 1737451227.80232 0
+["bibtex main"] 1737456128.13685 "main.aux" "main.bbl" "main" 1737456130.25363 0
   "./sample.bib" 1737450389 1873 f8deabfa964caea9d6cc68ea534afa53 ""
   "C:/Users/BP/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1737451226 2626 7cd3bc91a9d17ff0d496909918b7436b "pdflatex"
+  "main.aux" 1737456129 2880 5d947e2e9adbceb90e1f2cd206dc62f5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1737451224.63297 "c:/Users/BP/Downloads/anand_synopsis/main.tex" "main.pdf" "main" 1737451227.80436 0
+["pdflatex"] 1737456128.65123 "c:/Users/BP/Downloads/anand_synopsis/main.tex" "main.pdf" "main" 1737456130.25451 0
   "C:/Users/BP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737443408 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/BP/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737443398 14064 6076d333b75da7cac60186a37eacf9f4 ""
   "C:/Users/BP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737442615 12011941 541e48179b6bd7ed5bf17125c869d770 ""
@@ -86,11 +86,11 @@
   "C:/Users/BP/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/BP/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1730400552 15900 3cb191e576c7a313634d2813c55d4bf1 ""
   "GHRCE_LOGO.png" 1737446095 6065 4adc3876a0753cea84ee251c4bca2220 ""
-  "c:/Users/BP/Downloads/anand_synopsis/main.tex" 1737451219 22156 70705f90adbab627e5aeb6fd4d9c341b ""
+  "c:/Users/BP/Downloads/anand_synopsis/main.tex" 1737456120 22874 3c07051f04dc0f4f379ddc2f0f16acd2 ""
   "cricsight_architecuture.jpg" 1737449713 67026 b837d0b530cd3e5586f1889365c893d8 ""
-  "main.aux" 1737451226 2626 7cd3bc91a9d17ff0d496909918b7436b "pdflatex"
-  "main.bbl" 1737451224 1985 9cc42c35a161daac3955dde4f8940d52 "bibtex main"
-  "main.tex" 1737451219 22156 70705f90adbab627e5aeb6fd4d9c341b ""
+  "main.aux" 1737456129 2880 5d947e2e9adbceb90e1f2cd206dc62f5 "pdflatex"
+  "main.bbl" 1737456128 1985 9cc42c35a161daac3955dde4f8940d52 "bibtex main"
+  "main.tex" 1737456120 22874 3c07051f04dc0f4f379ddc2f0f16acd2 ""
   "titleSynop.tex" 1737449053 1500 cab9d442466282aa09c0fe8569f6086e ""
   (generated)
   "main.aux"
